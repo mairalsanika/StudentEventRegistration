@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Event Registration</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+        }
+
+        header {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 25px;
+        }
+
+        .container {
+            width: 70%;
+            margin: 30px auto;
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #aaa;
+        }
+
+        label {
+            display: block;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+
+        input, select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        button {
+            margin-top: 20px;
+            width: 100%;
+            padding: 12px;
+            background-color: #003366;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .event-info {
+            background-color: #eaf2f8;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 25px;
+        }
+
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>VIT Vellore</h1>
+    <h2>Student Event Registration</h2>
+</header>
+
+<div class="container">
+
+    <div class="event-info">
+        <h2>Tech Innovation Workshop</h2>
+
+        <p>
+            An interactive workshop covering emerging technologies,
+            software development and innovation.
+        </p>
+
+        <p><strong>Event Date:</strong> 20 October 2026</p>
+    </div>
+
+    <h2>Registration Form</h2>
+
+    <form>
+
+        <label>Student Name</label>
+        <input type="text"
+               placeholder="Enter student name"
+               required>
+
+        <label>Register Number</label>
+        <input type="text"
+               placeholder="Enter register number"
+               required>
+
+        <label>Department</label>
+        <select required>
+            <option value="">Select Department</option>
+            <option>Computer Science and Engineering</option>
+            <option>Software Engineering</option>
+            <option>Information Technology</option>
+            <option>Data Science</option>
+            <option>Electronics and Communication Engineering</option>
+        </select>
+
+        <label>Email</label>
+        <input type="email"
+               placeholder="Enter email address"
+               required>
+
+        <label>Event Date</label>
+        <input type="date" required>
+
+        <button type="submit">
+            Register for Event
+        </button>
+
+    </form>
+
+</div>
+
+<footer>
+    Student Event Registration | VIT Vellore
+</footer>
+
+</body>
+</html>
